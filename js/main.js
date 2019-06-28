@@ -1,21 +1,3 @@
-Skip to content
- 
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@accountgithubgab 
-0
-0 0 accountgithubgab/cursojs
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Security  Insights  Settings
-cursojs/Mod3/Aula6/todos.js
- unknown cursojs mod 3
-bff28ca yesterday
-54 lines (37 sloc)  1.26 KB
-    
 var listElement = document.querySelector('#app ul');
 var inputElement = document.querySelector('#app input');
 var buttonElement = document.querySelector('#app button');
@@ -70,15 +52,3 @@ function deleteTodo(pos) {
 function saveToStorage() {
     localStorage.setItem('list_todos', JSON.stringify(todos));
 }
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
